@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".GameOptionsFragment"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Difficulty"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"/>
+
+        <RadioGroup
+            android:id="@+id/difficulty_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <RadioButton
+                android:id="@+id/radio_easy"
+                android:text="Easy"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onLevelSelected"/>
+            <RadioButton
+                android:id="@+id/radio_medium"
+                android:text="Medium"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onLevelSelected"/>
+            <RadioButton
+                android:id="@+id/radio_hard"
+                android:text="Hard"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onLevelSelected"/>
+    </RadioGroup>
+
+
+</LinearLayout>
