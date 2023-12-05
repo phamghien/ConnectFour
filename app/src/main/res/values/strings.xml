@@ -8,4 +8,8 @@
     <string name="setMode">Select Difficulty</string>
     <string name="restart">Restart</string>
     <string name="state">New Game</string>
+    <string name="congrats">Congrats!</string>
+    <string name="gameOver">Game Over!</string>
+
+
 </resources>

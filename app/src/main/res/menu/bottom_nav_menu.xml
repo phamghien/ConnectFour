@@ -3,13 +3,12 @@
 
     <item
         android:id="@+id/navigation_game"
-        android:icon="@drawable/gameicon"
-        android:title="@string/app_name" />
-
+        android:icon="@drawable/play_icon"
+        android:title="@string/play" />
 
     <item
-        android:id="@+id/navigation_options"
-        android:icon="@drawable/optionsicon"
+        android:id="@+id/navigation_option"
+        android:icon="@drawable/mode_icon"
         android:title="@string/options" />
 
 </menu>
